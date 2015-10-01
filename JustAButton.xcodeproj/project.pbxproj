@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5947222ED0916A0A71956530 /* libPods-JustAButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B909925312C7DF4BA1B9361 /* libPods-JustAButton.a */; };
+		652589231BBA036300C96549 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652589221BBA036300C96549 /* ViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		657FDC9F1BB9F6B100C6B9BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 657FDC9E1BB9F6B100C6B9BA /* main.m */; };
+		657FDCA21BB9F6B100C6B9BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 657FDCA11BB9F6B100C6B9BA /* AppDelegate.m */; };
+		657FDCA51BB9F6B100C6B9BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657FDCA41BB9F6B100C6B9BA /* ViewController.m */; };
+		657FDCAA1BB9F6B100C6B9BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657FDCA91BB9F6B100C6B9BA /* Assets.xcassets */; };
+		657FDCAD1BB9F6B100C6B9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657FDCAB1BB9F6B100C6B9BA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		652589221BBA036300C96549 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		657FDC9A1BB9F6B100C6B9BA /* JustAButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustAButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		657FDC9E1BB9F6B100C6B9BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		657FDCA01BB9F6B100C6B9BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		657FDCA11BB9F6B100C6B9BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		657FDCA31BB9F6B100C6B9BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		657FDCA41BB9F6B100C6B9BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		657FDCA91BB9F6B100C6B9BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		657FDCAC1BB9F6B100C6B9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		657FDCAE1BB9F6B100C6B9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B909925312C7DF4BA1B9361 /* libPods-JustAButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JustAButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8480FBC097AFBAAB306CEE /* Pods-JustAButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustAButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-JustAButton/Pods-JustAButton.release.xcconfig"; sourceTree = "<group>"; };
+		DEB68E97A5EA661B527B2A74 /* Pods-JustAButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustAButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JustAButton/Pods-JustAButton.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657FDC971BB9F6B100C6B9BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5947222ED0916A0A71956530 /* libPods-JustAButton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		657FDC911BB9F6B100C6B9BA = {
+			isa = PBXGroup;
+			children = (
+				657FDC9C1BB9F6B100C6B9BA /* JustAButton */,
+				657FDC9B1BB9F6B100C6B9BA /* Products */,
+				9E834A3E4FB0E17F399D6419 /* Pods */,
+				8B63A2FCADBEC5043D322A12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		657FDC9B1BB9F6B100C6B9BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657FDC9A1BB9F6B100C6B9BA /* JustAButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		657FDC9C1BB9F6B100C6B9BA /* JustAButton */ = {
+			isa = PBXGroup;
+			children = (
+				657FDCA01BB9F6B100C6B9BA /* AppDelegate.h */,
+				657FDCA11BB9F6B100C6B9BA /* AppDelegate.m */,
+				657FDCA31BB9F6B100C6B9BA /* ViewController.h */,
+				657FDCA41BB9F6B100C6B9BA /* ViewController.m */,
+				652589221BBA036300C96549 /* ViewController.xib */,
+				657FDCA91BB9F6B100C6B9BA /* Assets.xcassets */,
+				657FDCAB1BB9F6B100C6B9BA /* LaunchScreen.storyboard */,
+				657FDCAE1BB9F6B100C6B9BA /* Info.plist */,
+				657FDC9D1BB9F6B100C6B9BA /* Supporting Files */,
+			);
+			path = JustAButton;
+			sourceTree = "<group>";
+		};
+		657FDC9D1BB9F6B100C6B9BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				657FDC9E1BB9F6B100C6B9BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B63A2FCADBEC5043D322A12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B909925312C7DF4BA1B9361 /* libPods-JustAButton.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E834A3E4FB0E17F399D6419 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEB68E97A5EA661B527B2A74 /* Pods-JustAButton.debug.xcconfig */,
+				BB8480FBC097AFBAAB306CEE /* Pods-JustAButton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		657FDC991BB9F6B100C6B9BA /* JustAButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657FDCB11BB9F6B100C6B9BA /* Build configuration list for PBXNativeTarget "JustAButton" */;
+			buildPhases = (
+				1A2676648FD063AE8519ED52 /* Check Pods Manifest.lock */,
+				657FDC961BB9F6B100C6B9BA /* Sources */,
+				657FDC971BB9F6B100C6B9BA /* Frameworks */,
+				657FDC981BB9F6B100C6B9BA /* Resources */,
+				729C32A03C19FA7C4145307D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustAButton;
+			productName = JustAButton;
+			productReference = 657FDC9A1BB9F6B100C6B9BA /* JustAButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657FDC921BB9F6B100C6B9BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = hgomes.ios;
+				TargetAttributes = {
+					657FDC991BB9F6B100C6B9BA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 657FDC951BB9F6B100C6B9BA /* Build configuration list for PBXProject "JustAButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 657FDC911BB9F6B100C6B9BA;
+			productRefGroup = 657FDC9B1BB9F6B100C6B9BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				657FDC991BB9F6B100C6B9BA /* JustAButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		657FDC981BB9F6B100C6B9BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657FDCAD1BB9F6B100C6B9BA /* LaunchScreen.storyboard in Resources */,
+				652589231BBA036300C96549 /* ViewController.xib in Resources */,
+				657FDCAA1BB9F6B100C6B9BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A2676648FD063AE8519ED52 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		729C32A03C19FA7C4145307D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustAButton/Pods-JustAButton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		657FDC961BB9F6B100C6B9BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657FDCA51BB9F6B100C6B9BA /* ViewController.m in Sources */,
+				657FDCA21BB9F6B100C6B9BA /* AppDelegate.m in Sources */,
+				657FDC9F1BB9F6B100C6B9BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		657FDCAB1BB9F6B100C6B9BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				657FDCAC1BB9F6B100C6B9BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		657FDCAF1BB9F6B100C6B9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		657FDCB01BB9F6B100C6B9BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		657FDCB21BB9F6B100C6B9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB68E97A5EA661B527B2A74 /* Pods-JustAButton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JustAButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hgomes.ios.JustAButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		657FDCB31BB9F6B100C6B9BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8480FBC097AFBAAB306CEE /* Pods-JustAButton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JustAButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hgomes.ios.JustAButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		657FDC951BB9F6B100C6B9BA /* Build configuration list for PBXProject "JustAButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657FDCAF1BB9F6B100C6B9BA /* Debug */,
+				657FDCB01BB9F6B100C6B9BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657FDCB11BB9F6B100C6B9BA /* Build configuration list for PBXNativeTarget "JustAButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657FDCB21BB9F6B100C6B9BA /* Debug */,
+				657FDCB31BB9F6B100C6B9BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 657FDC921BB9F6B100C6B9BA /* Project object */;
+}
